@@ -1,6 +1,6 @@
 # ChatDiary Skill
 
-ChatDiary is a trigger-controlled diary skill for saving conversational journal sessions into Obsidian daily notes. It is designed for agent environments where hooks can reliably capture the real user message and the real assistant reply after each turn.
+ChatDiary is a more conversational way to keep a diary. Instead of writing entries alone, you talk to an AI, let the conversation catch the things you want to share, and use the AI's replies to keep thinking a little deeper. It then turns that conversation into Obsidian daily notes, so journaling feels more natural, more engaging, and easier to stick with.
 
 ## Features
 
@@ -163,7 +163,7 @@ These are already listed in `.gitignore`.
 
 # ChatDiary Skill（中文）
 
-ChatDiary 是一个用触发词控制的日记 Skill，用来把一轮聊天式日记记录保存到 Obsidian 每日日记中。它依赖 Agent 平台的 Hook 来稳定捕获真实的用户消息和真实的 AI 回复，避免 AI 忘记记录或记录到未实际发送的回复。
+ChatDiary 想做的不是一个“写日记工具”，而是一种更容易开始、也更容易坚持的记录方式。它把日记变成一次和 AI 的对话：先让用户把想说的话自然讲出来，再借助 AI 的回应把话题往更深处带一点，最后顺手把这段对话整理成 Obsidian 里的每日日记。这样写日记不再只是“记录”，也更像一次真正的表达、整理和思考。
 
 ## 功能
 
