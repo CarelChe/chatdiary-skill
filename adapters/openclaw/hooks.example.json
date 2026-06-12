@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "message:received": [
+      {
+        "command": "python3 /path/to/chatdiary/adapters/openclaw/message_received.py"
+      }
+    ],
+    "message:sent": [
+      {
+        "command": "python3 /path/to/chatdiary/adapters/openclaw/message_sent.py"
+      }
+    ]
+  }
+}

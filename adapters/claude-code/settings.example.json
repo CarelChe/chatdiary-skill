@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /path/to/chatdiary/adapters/claude-code/user_prompt_submit.py"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /path/to/chatdiary/adapters/claude-code/stop.py"
+          }
+        ]
+      }
+    ]
+  }
+}

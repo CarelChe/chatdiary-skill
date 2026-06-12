@@ -1,0 +1,4 @@
+name: chatdiary-auto-log
+description: Record ChatDiary turns after each Hermes agent response
+events:
+  - agent:end

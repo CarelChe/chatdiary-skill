@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatDiary"
+  short_description: "Trigger-controlled chat diaries for Obsidian"
+  default_prompt: "Use $chatdiary to record this conversation into my Obsidian daily diary with hook-based turn capture."
